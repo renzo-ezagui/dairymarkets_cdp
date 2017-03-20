@@ -1,0 +1,66 @@
+v1.1.4 	- Fixed banner button class issue
+
+v1.1.3 	- Added TGMPA recommending companion plugin
+
+v1.1.2 	- Added companion plugin template parts
+        - Added landing.php page template
+        - Added function to unset landing.php if companion plugin not active
+        - Added userguide
+
+v1.1.1 	- Updated Kirki to 2.3.7
+        - Fixed resolution issue with screenshot
+
+v1.1.0 	- Fixed broken option to hide/show header social icons
+        - Migrated upsell button to trt-customizer-pro
+        - Removed !is_admin logic from css enqueue function
+        - Migrated to wp_script_add_data for older IE support
+        - Fixed custom sanitize function in kirki options config
+        - Migrated to antispambot function for emails in social icons row
+        - Removed custom scripts from kirki config
+        - Fixed some diplay issues via css from Monster Widget preview
+
+v1.0.9 	- Fixed kirki text domain
+
+v1.0.8 	- Removed all companion plugin templating
+        - Removed id from header
+        - Fixed child theme compatible issue with search button image path
+        - Removed unused function ember_get_the_excerpt_by_id
+        - Removed title.php
+
+v1.0.7 	- Fixed missing escapes on home_url & get_permalink
+
+v1.0.6 	- Fixed wrong escape in header
+
+v1.0.5 	- Fixed mobile menu scroll issue
+        - Updated credit format
+
+v1.0.4 	- Fixed subpage banner image size issue
+
+v1.0.3 	- Removed extra /dir/s from /inc/kirki/
+        - Fixed missing translation functions in content-single.php
+        - Removed all demo content in header-banner.php
+        - Added new post/page banner option as default in header-banner.php and /inc/options.php
+        - Fixed some escaping issues
+    	- Migrated all settings to Kirki
+        - Moved all assets into an /assets/ dir
+        - Escaped all saved data
+        - Moved all landing page features into page template with plugin req.
+        - Added support for title-tag
+        - Updated tags
+        - Removed all custom widgets
+        - Fixed licensing info
+        - Added text-domain
+        - Made all strings translatable
+
+v1.0.2  - Moved meta-boxes to /inc/
+
+v1.0.1  - Fixed z-index issue with menu
+        - Added text domain to style.css
+        - Migrated options to Kirki from redux and updated readme.txt with licence info
+        - Added many more social media options in menu row
+        - Fixed all demo content not translatable
+        - Removed contact form and related JS
+        - Fixed customizer display bug
+        - Added link to userguide
+
+v1.0.0  - Initial Launch 
